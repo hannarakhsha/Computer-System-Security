@@ -1,0 +1,26 @@
+Due on 4/30, submit in HARDCOPY
+
+1. (15%) Decipher the following ciphertext, which was encrypted with the Caesar cipher: TEBKFKQEBZLROPBLCERJXKBSBKQP. Follow the example in Chapter 8.2.2 to find the key and the plaintext, and show the table in Figure 8-2 for this question. Make a program to compute the table (but no need to submit your program).
+
+2. (10%) Let k be the encryption key for a Caesar cipher. Then, the decryption key is 26-k. One of the characteristics of a public key system is that the encryption and decryption keys are different. Why is the Caesar cipher not a public key system, even though its encryption and decryption keys are different?
+
+3. (15%) We have a law: (ab)%n = ((a%n)(b%n))%n. We want to compute (35^77)%83, i.e. 35 powers to 77 then modulo over 83.
+(a) Show how to use the law to reduce the number of multiplications of this computation from 76 multiplications to 9 multiplications.
+(b) Make a C or C++ or Java program to implement an integer exponentiation function dexp(unsigned int x, unsigned int y, unsigned int n) that returns (x^y)%n with reduced multiplications. Copy and paste your code in your homework submission.
+(c) Use your program to get the result of (35^77)%83. Show the result.
+
+4. (10%) A byte-sum program exclusive or's all bytes in its input to produce a one-byte hash. Is this byte-sum program a secure hash function or not? Show one example of inputs to justify your answer.
+
+5. (10%) Multiply two large numbers p and q (you will need to find a tool or a library by yourself)
+   p = 0xc315d99cf91a018dafba850237935b2d981e82b02d994f94db0a1ae40d1fc7ab9799286ac68d620f1102ef515b348807060e6caec5320e3dceb25a0b98356399
+   q = 0xe90bbb3d4f51311f0b7669abd04e4cc48687ad0e168e7183a9de3ff9fd2d2a3a50303a5109457bd45f0abe1c5750edfaff1ad87c13eed45e1b4bd2366b49d97f
+
+6. (10%) Factorize a short large number (you will need to download and use the tool yafu)
+   N=359567260516027240236814314071842368703501656647819140843316303878351
+
+7. (10%) Run the CTF virtual box, read the partial solution of "Super Old Cipher". Show the flag. 
+
+8. (10%) Run the CTF virtual box, read the partial solution of "Messy AES". Show the flag. 
+
+9. (10%) Run the CTF virtual box, read the partial solution of "Easy RSA". Show the flag.
+
